@@ -1,0 +1,14 @@
+﻿@using AIDotNet.Document.Contract.Models
+@using AIDotNet.Document.Rcl.Shared.Parts
+
+@inherits LayoutComponentBase
+
+<MApp Id="inspire">
+    <NavigationPart Width="210" />
+
+    <MMain>
+        <MErrorHandler>
+            @Body
+        </MErrorHandler>
+    </MMain>
+</MApp>

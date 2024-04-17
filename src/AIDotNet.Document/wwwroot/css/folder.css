@@ -1,0 +1,39 @@
+﻿.folder-item {
+    transition: all 0.3s;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+}
+
+    .folder-item:hover {
+        transition: all 0.3s;
+        background-color: #F4F6F7;
+    }
+
+.folder-item-selected {
+    background-color: #F4F6F7;
+}
+
+.folder-icon {
+    float: left;
+    margin-right: 8px;
+}
+
+.folder-info {
+    flex-grow: 1;
+    float: left;
+}
+
+.folder-date {
+    color: #999;
+    font-size: 12px;
+    width: 100%;
+    float: left;
+}
+
+.folder-options {
+    margin-left: auto;
+    float: right;
+}

@@ -1,0 +1,71 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.sidebar {
+    background-color: #f1f1f1;
+}
+
+.sidebar-info {
+    padding: 20px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+    .avatar img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .sidebar-menu li {
+        margin-bottom: 10px;
+    }
+
+.m-list-group__header {
+    height: 30px !important;
+    min-height: 30px !important;
+}
+
+.m-list-group__header__prepend-icon {
+    height: 12px !important;
+}
+
+.m-list-item__action, .m-list-item__avatar, .m-list-item__icon {
+    min-width: 0px !important;
+}
+
+.blazor-context-menu {
+    /* 好看的边框 */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.blazor-context-submenu {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+
+.m-application ol, .m-application ul {
+    padding: 5px;
+}
+
+.update-name {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+}
